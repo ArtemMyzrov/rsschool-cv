@@ -1,3 +1,5 @@
+![photo](image/DSC_0219-1.jpg)
+
 # Artem Myzrov
 
 
