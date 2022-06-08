@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto Serif', serif;
+}
+body{
+    background: linear-gradient(66deg, #e38010, #1535bf);
+    font-size: 18px;
+    background-size: 200% 200%;
+    animation: gradient 10s ease infinite;
+    
+}
+@keyframes gradient {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+
+@media (max-width:1200px){
+    .resume{
+        max-width: 970px;
+    }
+}
+@media (max-width:990px){
+    .resume{
+        max-width: 750px;
+    }
+}
+@media (max-width:780px){
+    .resume{
+        max-width: 750px;
+    }
+}
+ @media (max-width:600px){
+       .resume{
+         max-width: 350px;
+    }
+}
+
+
+h1{
+    color:black;
+    margin-bottom: 5px;
+    text-align: center;
+}
+h2,h3{
+    color: aliceblue;
+    margin-bottom: 25px;
+    text-align: center;
+    
+}
+a{
+    color: black;
+}
+.resume{
+    width: 900px;
+    height: auto;
+    margin: 50px auto;
+    display: flex;
+    
+}
+.resume_left{
+    width: 300px;
+    padding-left: 10px;
+}
+.resume_profile{
+    width: 100%;
+    height: 300px;
+}
+
+.photo{
+width: 100%;
+height: 100%;
+border-radius:50% ;
+border: 5px solid wheat;
+
+}
+
+.resume_item {
+   margin: 0px;
+   margin-top: 10px;
+   padding: 25px 0;
+   border-bottom: 7px dashed whitesmoke;
+
+}
+.resume_content{
+    padding: 0 15px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.resume .title{
+    margin-bottom: 25px;
+    
+}
+.resume_item:last-child{
+    border-bottom: 0;
+}
+.resume_left ul {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    
+    
+}
+.data{
+    margin-left:20px;
+    padding-right: 0 ;
+    line-height: 5;
+    align-items: center;
+    
+}
+
+.data-2{
+    margin-left: 0px;
+    color:black;
+    
+}
+.social-name{
+margin-right:3px;
+padding-right: 0;
+}
+
+.icon{
+    width: 48px;    
+    height: 48px;
+}
+.resume_skills u li{
+    justify-content: space-around;
+}
+.skill-name{
+    width: 25%;
+    letter-spacing: 0.1em;
+}
+.skill-progress{
+    background-color: black;
+    width: 60%;
+    margin:0 5px ;
+    height: 15px;
+    position: relative;
+   
+}
+.skill-per{
+    width: 15%;
+}
+.skill-progress span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: whitesmoke;
+
+}
+
+
+
+ 
+.resume_right {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    padding-left: 50px;
+    padding-top: 0px;
+    justify-content: center;
+    margin-top: 110px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    
+}
+  
+.language-html{
+   display: flex;
+   justify-content: center;
+   color: rgb(19, 230, 19);
+   margin-bottom: 5px;
+}
+.resume_examples{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.resume_language{
+    text-align: center;
+    margin-top: 10px;
+   
+   
+}
+.resume_about{
+    padding-bottom: 5px;
+}
+a:hover{
+    color: #e38010;
+}
+.footer{
+    width: 900px;
+    height: auto;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+}
+.footer_item{
+    border-top: 3px dashed wheat;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.date{
+    font-weight: 600;
+    margin: 58px 10px 0px 40px;
+}
