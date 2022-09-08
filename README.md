@@ -1,2 +1,2 @@
-https://ArtemMyzrov.github.io/rsschool-cv/cv
-https://ArtemMyzrov.github.io/rsschool-cv/
+https://artemmyzrov.github.io/rsschool-cv/cv
+https://artemmyzrov.github.io/rsschool-cv/
